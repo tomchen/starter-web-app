@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Démonstration des techniques en développement web</title>
+	<meta name="description" content="Une démonstration des techniques en développement web">
+	<meta name="keywords" content="démostration, développement web">
+	<meta name="author" content="Tom Chen">
+	<link rel="stylesheet" href="style.dev.css?ver=4" type="text/css" media="all">
+	<meta name="theme-color" content="#005284">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="html5shiv.js"></script>
+	<![endif]-->
+</head>
+	<body>
+		<!--[if IE]>
+			<div class="alert">
+			Vous utilisez un navigateur <strong>obsolète</strong>. Veuillez <a href="https://browsehappy.com/">mettre à jour votre navigateur</a> pour améliorer votre expérience.</div>
+		<![endif]-->
+		<header class="banner container">
+			<a title="Site officiel" class="brand logo" href="#">Tom Chen</a>
+			<nav class="nav-primary">
+				<div class="menu-main-fr-container">
+					<ul id="menu-main-fr" class="nav">
+						<li id="menu-item-3" class="menu-item"><a title="Nos services" href="#intro">Introduction</a></li>
+						<li id="menu-item-3" class="menu-item"><a title="Nos projets" href="#curpose">Effet curseur</a></li>
+						<li id="menu-item-4" class="menu-item"><a title="Nos actualités" href="#icons">Web font</a></li>
+						<li id="menu-item-5" class="menu-item"><a title="Contact" href="#gallery">Flexbox</a></li>
+						<li id="menu-item-5" class="menu-item"><a title="Contact" href="#parallax">Parallax</a></li>
+						<li id="menu-item-5" class="menu-item"><a title="Contact" href="#carousel">Carrousel</a></li>
+					</ul>
+				</div>
+			</nav>
+			<form role="search" method="get" class="search-form" action="">
+				<label>
+					<span class="screen-reader-text">Rechercher :</span>
+					<input title="Rechercher" type="search" class="search-field" placeholder="Recherche&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Rechercher" />
+			</form>
+				<div id="read-container"></div>
+		</header>
+
+		<main class="main container content" role="document">
+			<section id="page-front" class="page-container">
+				<h1 id="event-title" class="info">Cette page est une démonstration des techniques en <abbr title="développement">dév</abbr> web</h1>
+				<div id="event-slogan" class="info">Avec <abbr title="Pure JavaScript sans jQuery ou autres frameworks non nécessaires">Vanilla JavaScript</abbr> sans jQuery</div>
+				<div id="event-date" class="info">Le samedi 1 janvier 2000 à 00h00</div>
+				<div id="event-location" class="info">1 Boulevard ABCDE, 75000 Paris</div>
+				<a title="Jump to form" href="#reg" id="reg-button" class="button">Jump to form</a>
+				<div class="partener-logo-container">
+					<img class="partener-logo" src="image/logo-white.png">
+					<img class="partener-logo" src="image/logo-white.png">
+					<img class="partener-logo" src="image/logo-white.png">
+					<a href="#"><img class="partener-logo" src="image/logo-white.png"></a>
+					<img class="partener-logo" src="image/logo-white.png">
+					<a href="#"><img class="partener-logo" src="image/logo-white.png"></a>
+				</div>
+			</section>
+			<section id="intro" class="page-container">
+				<h2 id="intro-title" class="page-title">Introduction</h2>
+				<article class="text-content">Cette page a pour objectif de montrer HTML, CSS, JavaScript et quelques techniques basiques et/ou populaires en développement web. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
+					<ul>
+						<li>Balises HTML5 de base ((&lt;header&gt;, &lt;main&gt;, &lt;section&gt;, &lt;nav&gt;, etc.)</li>
+						<li>Table (<a href="#table">voir</a>), liste &lt;ul&gt; et &lt;ol&gt; (<a href="#programme">voir</a>)</li>
+						<li>CSS et JavaScript minifiés</li>
+						<li>Responsive design</li>
+						<li>Galerie avec CSS Flexbox (<a href="#gallery">voir</a>)</li>
+						<li>AJAX (<a href="#reg">voir</a>)</li>
+						<li>Beaucoup de transparence alpha CSS, de text shadow et d’effet de transition au survol de la souris (<a href="#reg">voir</a>)</li>
+						<li>Carrousel avec CSS transformation (<a href="#carousel">voir</a>)</li>
+						<li>Fenêtre pop-up (à disparaît après 3,5 secondes OU un clic) (<a href="#reg">voir</a>)</li>
+						<li>Effet basé sur la position du curseur (<a href="#curpose">voir</a>)</li>
+						<li>Défilement parallaxe (Parallax scrolling) (<a href="#parallax">voir</a>)</li>
+						<li>Défilement lisse (smooth scrolling) (<a href="#page-front">voir</a>)</li>
+						<li>"Fade-in" titre avec CSS animation (<a href="#page-front">voir</a>)</li>
+						<li>Barre de progression en SVG</li>
+						<li>Variable CSS "var()" et fonction "calc()"</li>
+						<li>Icônes avec web font (<a href="#icons">voir</a>)</li>
+						<li>JavaScript pur, sans jQuery, Bootstrap ou autre framework (pour avoir de bonnes performance)</li>
+					</ul>
+				</article>
+			</section>
+			<section id="programme" class="page-container">
+				<h2 id="programme-title" class="page-title">List UL OL LI</h2>
+
+
+
+				<ul id="programme-list" class="text-content">
+					<li>17h30–18h00 : Itaque tum Scaevola cum in eam ipsam mentionem</li>
+					<li>18h00–18h05 : Itaque verae amicitiae difficilli
+						<ul>
+							<li>Proinde concepta rabie saeviore, quam desperatio</li>
+						</ul>
+					</li>
+					<li>18h05–18h35 : Omitto iuris dictionem in libera civitate contra
+						<ol>
+							<li>Accedebant enim eius asperitati, ubi inminuta vel</li>
+							<li>Haec ubi latius fama vulgasset missaeque</li>
+							<li>Horum adventum praedocti speculationibus fidis</li>
+							<li>Hae duae provinciae bello quondam piratico</li>
+						</ol>
+					</li>
+					<li>18h35–19h15 : Proinde concepta
+						<ul>
+							<li>Itaque verae amicitiae difficillime reperiuntur in</li>
+							<li>Omitto iuris dictionem in libera civitate contra</li>
+							<li>Itaque verae amicitiae difficillime reperiuntur in</li>
+							<li>Haec ubi latius fama vulgasset missaeque</li>
+						</ul>
+					</li>
+					<li>19h15–19h25 : Proinde concepta rabie saeviore, quam desperatio</li>
+					<li>19h25–19h30 : Haec ubi latius fama vulgasset missaeque</li>
+					<li>19h30–21h00 : Horum adventum praedocti speculationibus fidis</li>
+				</ul>
+			</section>
+
+			<section id="table" class="page-container">
+				<h2 id="table-title" class="page-title">Table</h2>
+				<table id="table-people">
+					<tr>
+						<th>First name</th>
+						<th>Last name</th>
+						<th>Age</th>
+						<th>Address</th>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+					<tr>
+						<td>Eve</td>
+						<td>Jackson</td>
+						<td>94</td>
+						<td>589 Greystone Street. Amsterdam, NY 12010</td>
+					</tr>
+				</table>
+			</section>
+
+			<section id="curpose" class="page-container curpose-container">
+				<h2 id="curpose-title" class="page-title">Effet basé sur la position du curseur</h2>
+			</section>
+
+			<section id="icons" class="page-container">
+				<h2 id="icons-title" class="page-title">Icônes avec web font (responsive)</h2>
+				<ul id="feature-list">
+					<li id="feature-1" class="feature-icon">Stratégie</li>
+					<li id="feature-2" class="feature-icon">Création visuelle & audiovisuel</li>
+					<li id="feature-3" class="feature-icon">Marketing digital</li>
+					<li id="feature-4" class="feature-icon">Événement</li>
+				</ul>
+			</section>
+
+			<section id="gallery" class="page-container">
+				<h2 id="gallery-title" class="page-title">Galerie avec CSS Flexbox</h2>
+				<div class="gallery-image-container">
+					<div class="gallery-image gallery-image-1"></div>
+					<div class="gallery-image gallery-image-2"></div>
+					<div class="gallery-image gallery-image-3"></div>
+					<div class="gallery-image gallery-image-4"></div>
+					<div class="gallery-image gallery-image-3"></div>
+					<div class="gallery-image gallery-image-4"></div>
+					<div class="gallery-image gallery-image-2"></div>
+					<div class="gallery-image gallery-image-4"></div>
+					<div class="gallery-image gallery-image-1"></div>
+					<div class="gallery-image gallery-image-2"></div>
+					<div class="gallery-image gallery-image-3"></div>
+					<div class="gallery-image gallery-image-1"></div>
+				</div>
+			</section>
+
+			<section id="parallax" class="page-container">
+				<h2 id="parallax-title" class="page-title">Défilement parallaxe (Parallax scrolling)</h2>
+				<div id="parallax-bg-image"></div>
+			</section>
+
+			<section id="carousel" class="page-container">
+				<h2 id="carousel-title" class="page-title">Carrousel avec CSS transformation</h2>
+				<div class="slide-viewport">
+					<div class="slide-wrapper" data-slide="1">
+						<a href="#" class="slide-c">
+							<img src="image/carousel/1.jpg" class="slide-image">
+						</a>
+						<a href="#" class="slide-c">
+							<img src="image/carousel/2.jpg" class="slide-image">
+						</a>
+						<a href="#" class="slide-c">
+							<img src="image/carousel/3.jpg" class="slide-image">
+						</a>
+						<a href="#" class="slide-c">
+							<img src="image/carousel/4.jpg" class="slide-image">
+						</a>
+					</div>
+					<div class="slide-control">
+						<a href="#" class="slide-button slide-button-prev">&#x25C0;</a>
+						<a href="#" class="slide-button slide-button-next">&#x25B6;</a>
+					</div>
+					<div class="slide-number">
+						<a href="#" class="slide-button slide-button-goto" data-toslide="1"></a>
+						<a href="#" class="slide-button slide-button-goto" data-toslide="2"></a>
+						<a href="#" class="slide-button slide-button-goto" data-toslide="3"></a>
+						<a href="#" class="slide-button slide-button-goto" data-toslide="4"></a>
+					</div>
+				</div>
+			</section>
+
+			<section id="reg" class="page-container">
+				<h2 id="registration-title" class="page-title">Inscription</h2>
+				<form id="registration" action="reg.php" method="post" accept-charset="UTF-8">
+					<label class="reg-label" for="name">Votre nom et prénom <abbr class="asterisk" title="Champ obligatoire">*</abbr> :</label>
+					<input type="text" name="name" id="name" required value="" maxlength="200">
+					<label class="reg-label" for="company">Votre entreprise/organisme <abbr class="asterisk" title="Champ obligatoire">*</abbr> :</label>
+					<input type="text" name="company" id="company" required value="" maxlength="200">
+					<label class="reg-label" for="profession">Votre profession/position :</label>
+					<input type="text" name="profession" id="profession" value="" maxlength="200">
+					<label class="reg-label" for="tel">Votre numéro de téléphone <abbr class="asterisk" title="Champ obligatoire">*</abbr> :</label>
+					<input type="text" name="tel" id="tel" required value="" maxlength="200">
+					<label class="reg-label" for="email">Votre adresse e-mail <abbr class="asterisk" title="Champ obligatoire">*</abbr> :</label>
+					<input type="text" name="email" id="email" required value="" maxlength="200">
+					<button title="Je m’inscris au Forum" type="submit" id="submit-button" name="submit-button" value="a">Je m’inscris</button>
+				</form>
+			<div id="notice">Conformément au <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679&from=FR" title="Règlement général sur la protection des données" target="_blank">RGPD</a>, nous nous engageons à protéger vos informations. Si vous voulez vous désinscrire (supprimer vos données) ou poser une question, veuillez nous contacter par e-mail : <a title="Nous envoyer un e-mail" href="mailto:tomchen.org@gmail.com">contact@tomchen.org</a>.</div>
+			</section>
+		</main>
+	<script type="text/javascript" src="script.dev.js?ver=4"></script>
+	</body>
+</html>
