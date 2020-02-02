@@ -4,16 +4,13 @@ root = true
 charset = utf-8
 indent_style = space
 indent_size = 2
-end_of_line = crlf
+end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{php}]
+[*.php]
 indent_style = tab
 indent_size = 4
-
-[*.sh]
-end_of_line = lf
 
 [Makefile]
 indent_style = tab
@@ -21,3 +18,6 @@ indent_size = 4
 
 [*.sln]
 indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
