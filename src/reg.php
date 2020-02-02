@@ -33,7 +33,7 @@ try {
 	$profession = $_POST['profession'];
 	$tel = $_POST['tel'];
 	$email = $_POST['email'];
-	if ($stmt->execute()) { 
+	if ($stmt->execute()) {
 		echo "Votre inscription a bien été enregistrée. Merci et à bientôt !";
 	} else {
 		echo "Vous êtes déjà inscrit (une même adresse e-mail existe).";
