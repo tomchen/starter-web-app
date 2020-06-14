@@ -1,27 +1,27 @@
 /* ====== Global elements ====== */
-:root {
-  --fore-color: #111;
-  --secondary-fore-color: #444;
-  --back-color: #fafafa;
-  --secondary-back-color: #f0f0f0;
-  --blockquote-color: #f57c00;
-  --pre-color: #1565c0;
-  --border-color: #e4e4e4;
-  --secondary-border-color: #f0f0f0;
-  --heading-ratio: 1.19;
-  --universal-margin: 0.6rem;
-  --universal-padding: 0.6rem;
-  --universal-border-radius: 0.125rem;
-  --a-link-color: #28d5ff;
-  --a-visited-color: #28d5ff;
-  --a-link-gradient-color: linear-gradient(
-    rgba(40, 213, 255, 0.8),
-    rgba(40, 213, 255, 0.8)
-  );
-}
+
+$fore-color: #111;
+$secondary-fore-color: #444;
+$back-color: #fafafa;
+$secondary-back-color: #f0f0f0;
+$blockquote-color: #f57c00;
+$pre-color: #1565c0;
+$border-color: #e4e4e4;
+$secondary-border-color: #f0f0f0;
+$heading-ratio: 1.19;
+$universal-margin: 0.6rem;
+$universal-padding: 0.6rem;
+$universal-border-radius: 0.125rem;
+$a-link-color: #28d5ff;
+$a-visited-color: #28d5ff;
+$a-link-gradient-color: linear-gradient(
+  rgba(40, 213, 255, 0.8),
+  rgba(40, 213, 255, 0.8)
+);
+
 a {
   text-decoration: none;
-  background-image: var(--a-link-gradient-color);
+  background-image: $a-link-gradient-color;
   background-size: 0 2px;
   background-position: 0 88%;
   background-repeat: no-repeat;
@@ -30,11 +30,11 @@ a {
 }
 
 a:link {
-  color: var(--a-link-color);
+  color: $a-link-color;
 }
 
 a:visited {
-  color: var(--a-visited-color);
+  color: $a-visited-color;
 }
 
 a:hover {

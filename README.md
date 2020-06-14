@@ -1,5 +1,69 @@
 # Starter Web App
 
-Simple starter web app.
+**Starter Web App** ([GitHub page](https://github.com/tomchen/starter-web-app)) is a boilerplate project to start a simple static web site or web app with. Based on [Yeoman's generator-webapp](https://github.com/yeoman/generator-webapp), **Starter Web App** comes with:
 
-The default (example) page also serves as a demonstration of some basic and popular web front-end development techniques and effect.
+* ECMAScript 6 transpilation with Babel
+* Sass compilation
+* CSS autoprefixing
+* Live-reloading preview + watch mode with BrowserSync
+* JavaScript beautification (Prettier) and linting (ESLint)
+* CSS and JavaScript minification (production mode)
+* Image optimization
+* Image to favicon convertion and code injection
+* Source maps
+* Pre-set .editorconfig, .gitattributes, .gitignore configuration files
+* Script to publish to GitHub Pages (deploy `dist` folder to `gh-pages` branch)
+* etc.
+
+The **Starter Web App** default page is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
+
+* Basic HTML5 tags, table, list
+* Responsive design
+* Gallery with CSS Flexbox
+* AJAX form (with a back-end PHP script available)
+* Lots of CSS alpha transparency, text shadow and hover transition effect
+* Carousel with CSS transformation
+* Pop-up window (disappears after 3.5 seconds OR clicking)
+* Effect based on cursor position
+* Parallax scrolling
+* Smooth scrolling
+* "Fade-in" title with CSS animation
+* SVG Progress Bar
+* Web font icons
+* Vanilla JavaScript: pure JavaScript, without jQuery, Bootstrap or other framework
+* etc.
+
+---
+
+**Starter Web App** ([page GitHub](https://github.com/tomchen/starter-web-app)) est un projet boilerplate pour démarrer un simple site web statique ou une application web. Basé sur [generator-webapp de Yeoman](https://github.com/yeoman/generator-webapp), **Starter Web App** est livré avec :
+
+* ECMAScript 6 transpilation avec Babel
+* Compilation de Sass
+* Autoprefixing CSS
+* Mode prévisualisation avec rechargement en direct en utilisant BrowserSync
+* Beautification (Prettier) et linting (ESLint) de JavaScript
+* Minification de CSS et de JavaScript (mode production)
+* Optimisation d'image
+* Conversion d'image en favicon et injection de code
+* Source maps
+* Fichiers de configuration prédéfinis: .editorconfig, .gitattributes, .gitignore
+* Script pour publier sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`)
+* etc.
+
+La page par défaut de **Starter Web App** est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
+
+* Balises HTML5 de base, table, liste
+* Responsive design
+* Galerie avec CSS Flexbox
+* Formulaire AJAX (avec un script PHP back-end disponible)
+* Beaucoup de transparence alpha CSS, de text shadow et d’effet de transition au survol de la souris
+* Carrousel avec CSS transformation
+* Fenêtre pop-up (à disparaît après 3,5 secondes OU un clic)
+* Effet basé sur la position du curseur
+* Défilement parallaxe (Parallax scrolling)
+* Défilement lisse (smooth scrolling)
+* Titre "fade-in" avec CSS animation
+* Barre de progression en SVG
+* Icônes avec web font
+* Vanilla JavaScript : JavaScript pur, sans jQuery, Bootstrap ou autre framework
+* etc.

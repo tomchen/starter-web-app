@@ -9,6 +9,7 @@
     "build": "cross-env NODE_ENV=production gulp",
     "test": "npm run serve:test",
     "tasks": "gulp --tasks",
+    "deploy": "./gh-pages.sh",
     "favicon:generate": "gulp generate-favicon",
     "favicon:inject": "gulp inject-favicon-markups"
   },
@@ -27,6 +28,10 @@
     "cross-env": "*",
     "cssnano": "*",
     "del": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-import": "*",
     "gulp": "*",
     "gulp-babel": "*",
     "gulp-cli": "*",
@@ -45,6 +50,7 @@
     "gulp-useref": "*",
     "mkdirp": "*",
     "mocha": "*",
+    "prettier": "*",
     "yargs": "13.2.4"
   },
   "browserslist": [
@@ -54,21 +60,5 @@
   ],
   "engines": {
     "node": ">=4"
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "sourceType": "module"
-    },
-    "env": {
-      "es6": true,
-      "node": true,
-      "browser": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
   }
 }
