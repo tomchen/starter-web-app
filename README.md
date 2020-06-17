@@ -1,6 +1,6 @@
 # Starter Web App
 
-**Starter Web App** ([GitHub page](https://github.com/tomchen/starter-web-app)) is a boilerplate project to start a simple static web site or web app with. Based on [Yeoman's generator-webapp](https://github.com/yeoman/generator-webapp), **Starter Web App** comes with:
+**Starter Web App** is a boilerplate project to start a simple static web site or web app with. Based on [Yeoman's generator-webapp](https://github.com/yeoman/generator-webapp), Starter Web App comes with:
 
 * ECMAScript 6 transpilation with Babel
 * Sass compilation
@@ -12,10 +12,10 @@
 * Image to favicon convertion and code injection
 * Source maps
 * Pre-set .editorconfig, .gitattributes, .gitignore configuration files
-* Script to publish to GitHub Pages (deploy `dist` folder to `gh-pages` branch)
+* Script to publish files to GitHub Pages (deploy `dist` folder to `gh-pages` branch)
 * etc.
 
-The **Starter Web App** default page is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
+The Starter Web App default page is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
 
 * Basic HTML5 tags, table, list
 * Responsive design
@@ -35,7 +35,7 @@ The **Starter Web App** default page is a demo showing some basic and/or popular
 
 ---
 
-**Starter Web App** ([page GitHub](https://github.com/tomchen/starter-web-app)) est un projet boilerplate pour démarrer un simple site web statique ou une application web. Basé sur [generator-webapp de Yeoman](https://github.com/yeoman/generator-webapp), **Starter Web App** est livré avec :
+**Starter Web App** est un projet boilerplate pour démarrer un simple site web statique ou une application web. Basé sur [generator-webapp de Yeoman](https://github.com/yeoman/generator-webapp), Starter Web App est livré avec :
 
 * ECMAScript 6 transpilation avec Babel
 * Compilation de Sass
@@ -47,10 +47,10 @@ The **Starter Web App** default page is a demo showing some basic and/or popular
 * Conversion d'image en favicon et injection de code
 * Source maps
 * Fichiers de configuration prédéfinis: .editorconfig, .gitattributes, .gitignore
-* Script pour publier sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`)
+* Script pour publier fichiers sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`)
 * etc.
 
-La page par défaut de **Starter Web App** est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
+La page par défaut de Starter Web App est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
 
 * Balises HTML5 de base, table, liste
 * Responsive design

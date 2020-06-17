@@ -9,7 +9,7 @@
     "build": "cross-env NODE_ENV=production gulp",
     "test": "npm run serve:test",
     "tasks": "gulp --tasks",
-    "deploy": "./gh-pages.sh",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "favicon:generate": "gulp generate-favicon",
     "favicon:inject": "gulp inject-favicon-markups"
   },
