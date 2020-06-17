@@ -6,6 +6,7 @@
 * Sass compilation
 * CSS autoprefixing
 * Live-reloading preview + watch mode with BrowserSync
+* Task runner gulp
 * JavaScript beautification (Prettier) and linting (ESLint)
 * CSS and JavaScript minification (production mode)
 * Image optimization
@@ -41,6 +42,7 @@
 * Compilation de Sass
 * Autoprefixing CSS
 * Mode prévisualisation avec rechargement en direct en utilisant BrowserSync
+* Task runner gulp
 * Beautification (Prettier) et linting (ESLint) de JavaScript
 * Minification de CSS et de JavaScript (mode production)
 * Optimisation d'image
