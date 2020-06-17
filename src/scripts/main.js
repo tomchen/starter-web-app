@@ -90,7 +90,7 @@
     const email = document.getElementById('email').value.trim()
     if (!name) {
       popup({
-        en: 'Please enter your name. Thank you. Thank you.',
+        en: 'Please enter your name. Thank you.',
         fr: 'Veuillez saisir votre nom. Merci.',
       })
       return
