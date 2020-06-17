@@ -64,7 +64,11 @@
   an.id = 'alert-notice'
   document.body.appendChild(an)
 
-  function popup(text) {
+  function popup(inputText) {
+    let text = inputText
+    if (typeof text !== 'string') {
+      text = inputText[document.documentElement.lang.split('-')[0]]
+    }
     an.innerHTML = `<span>${text}</span>`
     an.className = 'display-shown shown'
     window.clearTimeout(to)
@@ -85,23 +89,42 @@
     const tel = document.getElementById('tel').value.replace(/ /g, '').trim()
     const email = document.getElementById('email').value.trim()
     if (!name) {
-      popup('Veuillez saisir votre nom. Merci.')
+      popup({
+        en: 'Please enter your name. Thank you. Thank you.',
+        fr: 'Veuillez saisir votre nom. Merci.',
+      })
       return
     }
     if (!company) {
-      popup('Veuillez saisir votre entreprise. Merci.')
+      popup({
+        en: 'Please enter your company. Thank you.',
+        fr: 'Veuillez saisir votre entreprise. Merci.',
+      })
+      popup('')
       return
     }
     if (!tel) {
-      popup('Veuillez saisir votre numéro de téléphone. Merci.')
+      popup({
+        en: 'Please enter your phone number. Thank you.',
+        fr: 'Veuillez saisir votre numéro de téléphone. Merci.',
+      })
+      popup('')
       return
     }
     if (!/^[\d-.()]+$/g.test(tel)) {
-      popup('Veuillez saisir un numéro de téléphone correct. Merci.')
+      popup({
+        en: 'Please enter a correct phone number. Thank you.',
+        fr: 'Veuillez saisir un numéro de téléphone correct. Merci.',
+      })
+      popup('')
       return
     }
     if (!email) {
-      popup('Veuillez saisir votre adresse e-mail. Merci.')
+      popup({
+        en: 'Please enter your email address. Thank you.',
+        fr: 'Veuillez saisir votre adresse e-mail. Merci.',
+      })
+      popup('')
       return
     }
     if (
@@ -109,9 +132,12 @@
         email,
       )
     ) {
-      popup(
-        'Veuillez saisir une adresse e-mail correcte (pas de charactère spéciale pour le nom de domaine). Merci.',
-      )
+      popup({
+        en:
+          'Please enter a correct email address (no special characters for the domain name). Thank you.',
+        fr:
+          'Veuillez saisir une adresse e-mail correcte (pas de charactère spéciale pour le nom de domaine). Merci.',
+      })
       return
     }
     const xhr = new XMLHttpRequest()
@@ -119,7 +145,10 @@
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
     xhr.onload = () => {
       if (xhr.status !== 200) {
-        popup(`Demande échoué. Statut de retour de ${xhr.status}`)
+        popup({
+          en: `Request failed. Return status of ${xhr.status}`,
+          fr: `Demande échoué. Statut de retour de ${xhr.status}`,
+        })
       } else {
         popup(xhr.responseText)
       }
@@ -134,18 +163,12 @@
   // progress bar
 
   class ProgressRing {
-
-    constructor(
-      containerElement,
-      radius,
-      strokeWidth,
-      imageSize,
-    ) {
+    constructor(containerElement, radius, strokeWidth, imageSize) {
       this.circumference = 2 * Math.PI * radius
 
       const xmlns = 'http://www.w3.org/2000/svg'
 
-      const progressMaxEl = document.createElementNS(xmlns, 'circle');
+      const progressMaxEl = document.createElementNS(xmlns, 'circle')
       progressMaxEl.setAttribute('class', 'progress-max')
       progressMaxEl.setAttribute('r', radius)
       progressMaxEl.setAttribute('cx', imageSize / 2)
@@ -160,13 +183,13 @@
       this.progressValueEl.setAttribute('stroke-width', strokeWidth)
       this.progressValueEl.setAttribute('stroke-dasharray', this.circumference)
 
-      const svgEl = document.createElementNS(xmlns, 'svg');
+      const svgEl = document.createElementNS(xmlns, 'svg')
       svgEl.setAttribute('class', 'progress-svg')
       svgEl.setAttribute('width', imageSize)
       svgEl.setAttribute('height', imageSize)
       svgEl.setAttribute('viewBox', `0 0 ${imageSize} ${imageSize}`)
 
-      const readPctContainerEl = document.createElement('div');
+      const readPctContainerEl = document.createElement('div')
       readPctContainerEl.className = 'read-text-container'
       this.readPctEl = document.createElement('span')
       this.readPctEl.className = 'read-percentage'
@@ -311,7 +334,7 @@
     dataset.slide = number
   }
   const goToNextSlide = (slideWrapperEl) => {
-    const {length} = slideWrapperEl.getElementsByClassName('slide-c')
+    const { length } = slideWrapperEl.getElementsByClassName('slide-c')
     // eslint-disable-next-line no-param-reassign
     slideWrapperEl.dataset.slide =
       slideWrapperEl.dataset.slide === length
@@ -319,7 +342,7 @@
         : parseInt(slideWrapperEl.dataset.slide, 10) + 1
   }
   const goToPrevSlide = (slideWrapperEl) => {
-    const {length} = slideWrapperEl.getElementsByClassName('slide-c')
+    const { length } = slideWrapperEl.getElementsByClassName('slide-c')
     // eslint-disable-next-line no-param-reassign
     slideWrapperEl.dataset.slide =
       slideWrapperEl.dataset.slide === 1
@@ -404,5 +427,4 @@
   }
   window.addEventListener('load', initParallax)
   window.addEventListener('resize', initParallax)
-
 })()
