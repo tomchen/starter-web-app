@@ -12,7 +12,7 @@
 * Image to favicon convertion and code injection
 * Source maps
 * Pre-set .editorconfig, .gitattributes, .gitignore configuration files
-* Script to publish files to GitHub Pages (deploy `dist` folder to `gh-pages` branch)
+* Script to publish files to GitHub Pages (deploy `dist` folder to `gh-pages` branch. If you don't need this feature, you may delete the last block `!dist` in .gitignore)
 * etc.
 
 [The Starter Web App default page](https://starter-web-app.tomchen.org/) is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
@@ -47,7 +47,7 @@
 * Conversion d'image en favicon et injection de code
 * Source maps
 * Fichiers de configuration prédéfinis: .editorconfig, .gitattributes, .gitignore
-* Script pour publier fichiers sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`)
+* Script pour publier fichiers sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`. Si vous n'en avez pas besoin, vous pouvez supprimer le dernier bloc `!dist` dans .gitignore)
 * etc.
 
 [La page par défaut de Starter Web App](https://starter-web-app.tomchen.org/) est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
