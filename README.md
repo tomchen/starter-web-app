@@ -15,7 +15,7 @@
 * Script to publish files to GitHub Pages (deploy `dist` folder to `gh-pages` branch)
 * etc.
 
-The Starter Web App default page is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
+[The Starter Web App default page](https://starter-web-app.tomchen.org/) is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
 
 * Basic HTML5 tags, table, list
 * Responsive design
@@ -50,7 +50,7 @@ The Starter Web App default page is a demo showing some basic and/or popular tec
 * Script pour publier fichiers sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`)
 * etc.
 
-La page par défaut de Starter Web App est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
+[La page par défaut de Starter Web App](https://starter-web-app.tomchen.org/) est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
 
 * Balises HTML5 de base, table, liste
 * Responsive design
