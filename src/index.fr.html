@@ -15,39 +15,43 @@
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-<link rel="manifest" href="images/favicons/site.webmanifest">
-<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#00a7ff">
-<link rel="shortcut icon" href="images/favicons/favicon.ico">
-<meta name="msapplication-TileColor" content="#2d89ef">
-<meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
-<meta name="msapplication-config" content="images/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff"></head>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#00a7ff">
+  <link rel="shortcut icon" href="images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
 <body>
   <header class="banner container">
     <a title="Site officiel" class="brand logo" href="#">Tom Chen</a>
     <nav class="nav-primary">
       <div class="menu-main-fr-container">
         <ul id="menu-main-fr" class="nav">
-          <li id="menu-item-3" class="menu-item"><a title="English" href="index.html">English ver.</a></li>
-          <li id="menu-item-3" class="menu-item"><a title="Introduction" href="#intro">Introduction</a></li>
-          <li id="menu-item-3" class="menu-item"><a title="Effet curseur" href="#curpose">Effet curseur</a></li>
-          <li id="menu-item-4" class="menu-item"><a title="Web font" href="#icons">Web font</a></li>
-          <li id="menu-item-5" class="menu-item"><a title="Flexbox" href="#gallery">Flexbox</a></li>
-          <li id="menu-item-5" class="menu-item"><a title="Parallax" href="#parallax">Parallax</a></li>
-          <li id="menu-item-5" class="menu-item"><a title="Carrousel" href="#carousel">Carrousel</a></li>
+          <li class="menu-item"><a title="English" href="index.html">English ver.</a></li>
+          <li class="menu-item"><a title="Introduction" href="#intro">Introduction</a></li>
+          <li class="menu-item"><a title="Effet curseur" href="#curpose">Effet curseur</a></li>
+          <li class="menu-item"><a title="Web font" href="#icons">Web font</a></li>
+          <li class="menu-item"><a title="Flexbox" href="#gallery">Flexbox</a></li>
+          <li class="menu-item"><a title="Parallax" href="#parallax">Parallax</a></li>
+          <li class="menu-item"><a title="Carrousel" href="#carousel">Carrousel</a></li>
+          <li class="menu-item">
+            <a title="Page de projet sur GitHub" href="https://github.com/tomchen/starter-web-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
         </ul>
       </div>
     </nav>
-    <form role="search" method="get" class="search-form" action>
+    <!-- <form role="search" method="get" class="search-form" action>
       <label>
         <span class="screen-reader-text">Rechercher :</span>
         <input title="Rechercher" type="search" class="search-field" placeholder="Recherche&hellip;" value name="s">
       </label>
       <input type="submit" class="search-submit" value="Rechercher">
-    </form>
+    </form> -->
     <div id="read-container" data-read-string="lu"></div>
   </header>
   <main class="main container content" role="document">
@@ -93,8 +97,8 @@
           </ul>
         <p>
           Cette page par défaut de Starter Web App (<a href="index.html">version anglaise</a>) est une démo montrant quelques techniques et effets
-          basiques et/ou populaires en développement web front-end écrit en CSS et
-          <abbr title="Pure JavaScript without jQuery, Bootstrap or other framework">vanilla JavaScript</abbr>.
+          basiques et/ou populaires en développement web front-end écrit en
+          <abbr title="JavaScript et SASS (CSS) pur, natif sans jQuery, Bootstrap ou autre framework">vanilla JavaScript et SASS</abbr>.
           Les images utilisées ici sont dans le domaine public ou peuvent
           être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent :
         </p>
@@ -113,7 +117,7 @@
           <li>Barre de progression en SVG</li>
           <li>Variable CSS "var()" et fonction "calc()"</li>
           <li>Icônes avec web font (<a href="#icons">voir</a>)</li>
-          <li>Vanilla JavaScript : JavaScript pur, sans jQuery, Bootstrap ou autre framework</li>
+          <li>Vanilla JavaScript et SASS : JavaScript et SASS (CSS) pur, natif sans jQuery, Bootstrap ou autre framework</li>
           <li>etc.</li>
         </ul>
       </article>
