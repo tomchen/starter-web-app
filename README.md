@@ -16,7 +16,7 @@
 * Script to publish files to GitHub Pages (deploy `dist` folder to `gh-pages` branch. If you don't need this feature, you may delete the last block `!dist` in .gitignore)
 * etc.
 
-[The Starter Web App default page](https://starter-web-app.tomchen.org/) is a demo showing some basic and/or popular techniques and effects in front-end web development written in CSS and vanilla JavaScript. The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
+[The Starter Web App default page](https://starter-web-app.tomchen.org/) is a demo showing some basic and/or popular techniques and effects in front-end web development written in vanilla JavaScript and Sass (CSS). The images used here are in the public domain or may be used for any purpose. Techniques used / features shown by this demo include:
 
 * Basic HTML5 tags, table, list
 * Responsive design
@@ -31,7 +31,7 @@
 * "Fade-in" title with CSS animation
 * SVG Progress Bar
 * Web font icons
-* Vanilla JavaScript: pure JavaScript, without jQuery, Bootstrap or other framework
+* Vanilla JavaScript and Sass: pure, native JavaScript and Sass (CSS) without jQuery, Bootstrap or other framework
 * etc.
 
 ---
@@ -52,7 +52,7 @@
 * Script pour publier fichiers sur GitHub Pages (déployer le dossier `dist` vers la branche `gh-pages`. Si vous n'en avez pas besoin, vous pouvez supprimer le dernier bloc `!dist` dans .gitignore)
 * etc.
 
-[La page par défaut de Starter Web App](https://starter-web-app.tomchen.org/) est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en CSS et vanilla JavaScript. Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent (non exhaustive) :
+[La page par défaut de Starter Web App](https://starter-web-app.tomchen.org/) est une démo montrant quelques techniques et effets basiques et/ou populaires en développement web front-end écrit en vanilla JavaScript et Sass (CSS). Les images utilisées ici sont dans le domaine public ou peuvent être utilisées à toutes fins. Techniques utilisées / fonctionnalités effectuées par cette démo incluent:
 
 * Balises HTML5 de base, table, liste
 * Responsive design
@@ -67,5 +67,5 @@
 * Titre "fade-in" avec CSS animation
 * Barre de progression en SVG
 * Icônes avec web font
-* Vanilla JavaScript : JavaScript pur, sans jQuery, Bootstrap ou autre framework
+* Vanilla JavaScript et Sass : JavaScript et Sass (CSS) pur, natif sans jQuery, Bootstrap ou autre framework
 * etc.
