@@ -1,8 +1,7 @@
 module.exports = {
   env: {
+    browser: true,
     es6: true,
-    node: true,
-    browser: true
   },
   extends: [
     'airbnb-base',
@@ -17,7 +16,7 @@ module.exports = {
     ecmaVersion: 2020,
     sourceType: 'module',
     ecmaFeatures: {
-      impliedStrict: true
+      impliedStrict: true,
     },
   },
   rules: {},
