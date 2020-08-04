@@ -1,5 +1,7 @@
 # Starter Web App
 
+[![MIT License](https://img.shields.io/github/license/tomchen/starter-web-app)](https://github.com/tomchen/starter-web-app/blob/master/LICENSE "MIT License")
+
 **Starter Web App** is a boilerplate project to start a simple static web site or web app with. Based on [Yeoman's generator-webapp](https://github.com/yeoman/generator-webapp), Starter Web App comes with:
 
 * ECMAScript 6 transpilation with Babel
